@@ -42,7 +42,7 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 items-center border-right">
                                 <Link href="/">
                                     <Image
-                                        src="/images/navbar/bbaytal.png"
+                                        src="/images/navbar/Baytal.png"
                                         alt="Desgy Solutions Logo"
                                         width={160}             // Adjust width and height as needed
                                         height={50}
