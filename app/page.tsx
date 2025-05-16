@@ -1,7 +1,5 @@
 import Banner from './components/Banner/index';
 import Aboutus from './components/Aboutus/index';
-import Dedicated from './components/Dedicated/index';
-import Digital from './components/Digital/index';
 import Beliefs from './components/Beliefs/index';
 import Wework from './components/Wework/index';
 import Ourteam from './components/Ourteam/index';
@@ -19,8 +17,6 @@ export default function Home() {
     <main>
       <Banner />
       <Aboutus />
-      <Dedicated />
-      <Digital />
       <Beliefs />
       <Wework />
       <Ourteam />
