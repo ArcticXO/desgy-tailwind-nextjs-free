@@ -8,7 +8,7 @@ const Banner = () => {
                 {/* COLUMN-1 - IMAGE (now first in DOM order) */}
                 <div className="relative w-full h-[300px] sm:h-[400px] lg:h-auto block order-1 lg:order-none lg:pr-8">
                     <Image
-                        src="/images/banner/manchester.png"
+                        src="/images/banner/manchester2.jpg"
                         alt="hero-image"
                         layout="fill"
                         objectFit="cover"
