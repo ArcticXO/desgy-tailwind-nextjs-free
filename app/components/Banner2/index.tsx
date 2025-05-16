@@ -22,9 +22,9 @@ const Banner = () => {
                       
                     </div>
                     <div className="py-3 text-center lg:text-start">
-                        <h1 className="text-6xl lg:text-7xl font-bold text-darkpurple leading-tight">
+                        <h3 className="text-6xl lg:text-7xl font-bold text-darkpurple leading-tight">
                            Whether it’s routine repairs,  <br />   emergency fixes or <br />  regular inspections we can help. 
-                        </h1>
+                        </h3>
                         <p className="mt-6 text-lg text-gray-600">
                         Property maintenance can be overwhelming for property owners and managers alike. Whether it’s a planned home renovation, emergency repairs to a retail unit, regular maintenance of an office building or anything in between – it can be time consuming, stressful and expensive.                
                         </p>
