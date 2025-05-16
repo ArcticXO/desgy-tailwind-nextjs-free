@@ -2,43 +2,36 @@ import Image from "next/image";
 
 const Banner = () => {
     return (
-        <div className="mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 items-stretch my-16">
+        <div className='mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 my-16'>
 
                 {/* COLUMN-1 */}
-                <div className="mx-auto sm:mx-0 flex flex-col justify-center">
-                    <div className="py-3 text-center lg:text-start">
-                      
+
+                <div className="mx-auto sm:mx-0">
+                    <div className='py-3 text-center lg:text-start'>
+                        <button className='text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-wider hover:text-white hover:bg-black'>DESIGN AGENCY</button>
                     </div>
                     <div className="py-3 text-center lg:text-start">
-                        <h1 className="text-6xl lg:text-7xl font-bold text-darkpurple leading-tight">
-                            Commercial  <br /> maintenence <br /> Services
+                        <h1 className='text-6xl lg:text-80xl font-bold text-darkpurple'>
+                            Dedicated to <br /> bring your <br /> ideas to life.
                         </h1>
-                        <p className="mt-2 text-sm text-gray-600">
-                          Reliable, professional maintenence for all types of commercial buildings and facilities.
-                        </p>
                     </div>
-                    <div className="my-7 text-center lg:text-start">
-                        <button className="text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue">
-                            Find out more
+                    <div className='my-7 text-center lg:text-start'>
+                        <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
+                            Get Started
                         </button>
                     </div>
                 </div>
 
                 {/* COLUMN-2 */}
-                <div className="relative w-full h-[300px] sm:h-[400px] lg:h-auto block">
-                    <Image
-                        src="/images/banner/manchester.png"
-                        alt="hero-image"
-                        layout="fill"
-                        objectFit="cover"
-                        className="rounded-xl"
-                    />
+
+                <div className='lg:-m-24 lg:pt-20 hidden lg:block'>
+                    <Image src="/images/banner/banner.svg" alt="hero-image" width={800} height={642} />
                 </div>
 
             </div>
         </div>
-    );
-};
+    )
+}
 
 export default Banner;
