@@ -1,4 +1,5 @@
 import Banner from './components/Banner/index';
+import Banner2 from './components/Banner2/index';
 import Aboutus from './components/Aboutus/index';
 import Beliefs from './components/Beliefs/index';
 import Wework from './components/Wework/index';
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <main>
       <Banner />
+      <Banner2 />
       <Aboutus />
       <Beliefs />
       <Wework />
